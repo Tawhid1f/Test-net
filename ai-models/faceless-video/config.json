@@ -1,0 +1,6 @@
+{
+    "video_duration": 10,
+    "video_size": [640, 480],
+    "background_color": [255, 255, 255],
+    "text_language": "en"
+}

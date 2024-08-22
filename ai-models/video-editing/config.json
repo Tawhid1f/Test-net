@@ -1,0 +1,5 @@
+{
+    "video_path": "background_video.mp4",
+    "audio_path": "background_audio.mp3",
+    "output_path": "final_video.mp4"
+}

@@ -1,0 +1,24 @@
+# MongoDB Connection String for Atlas or Local MongoDB
+MONGO_URI=Your MongoDB Connection String
+PORT=5000
+
+# MongoDB CLI Commands (to be run in your terminal)
+
+# Start MongoDB server (if running locally)
+mongod
+
+# Connect to MongoDB
+mongo
+
+# Create a new database and switch to it
+use your_database_name
+
+# Create a collection and insert a document
+db.users.insertOne({
+    username: "testuser",
+    email: "test@example.com",
+    password: "password123"
+})
+
+# Find and display all documents in the collection
+db.users.find().pretty()
