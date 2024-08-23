@@ -4,7 +4,7 @@
   "description": "AI video generation website",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "next start",
     "build": "next build",
     "dev": "next dev"
   },
